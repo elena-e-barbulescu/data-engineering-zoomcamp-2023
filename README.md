@@ -32,7 +32,7 @@ Steps:
 - 4 - [Installing Docker on Windows](https://docs.docker.com/desktop/install/windows-install/)
 
 
-4 - Installing Python 3.9 in the docker container
+Installing Python 3.9 in the docker container
 $ docker run -it python:3.9
 
 
