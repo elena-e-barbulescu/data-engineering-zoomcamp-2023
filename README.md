@@ -26,6 +26,7 @@ Steps:
 - 1 - Introduction to Docker  (see video provided in Resources)
 - 2 - Clone the github repo from DataTalks Github (https://github.com/DataTalksClub/data-engineering-zoomcamp) at command line
 - 3 - Access of week 1 folder locally on Gitbash
+
 ![image](https://user-images.githubusercontent.com/68255140/212756449-39a696db-ced5-4ce2-b06f-8efb4559816e.png)
 
 - 4 - [Installing Docker on Windows](https://docs.docker.com/desktop/install/windows-install/)
