@@ -125,8 +125,52 @@ Crtl+O to save, then enter, and then
 
 ![image](https://user-images.githubusercontent.com/68255140/212780219-9774ef27-5c32-429e-945d-0174363bf960.png)
 
+run : docker-compose up -d (in detached mode)
+  
+  ![image](https://user-images.githubusercontent.com/68255140/212780546-842503c0-ce02-40f0-9182-afa860dbb299.png)
 
 
+11 - Install PGCli
+
+  ![image](https://user-images.githubusercontent.com/68255140/212780598-f4ec8af2-e8aa-41f3-bb64-e001ee2ae1ca.png)
+
+12 - Get taxi data (root password = root)
+  
+ ![image](https://user-images.githubusercontent.com/68255140/212780877-62bd6827-6641-4afa-a3e9-a3393077be8b.png)
+
+  it's WORKING!
+  
+  ![image](https://user-images.githubusercontent.com/68255140/212780952-914197d7-c902-4e12-adac-09ac95d64430.png)
+
+  
+13 - Uninstal pgcli and resinstall using conda
+  
+  ![image](https://user-images.githubusercontent.com/68255140/212781130-0e38e962-dede-46f9-aef9-0f26a6633e49.png)
+
+  ![image](https://user-images.githubusercontent.com/68255140/212781214-fb7ea156-6c37-4ec2-9cac-2ec81fcd91d5.png)
+
+  Oh yea, this was fun, conda solving the environment as it was attempting to install pgcli
+  
+  ![image](https://user-images.githubusercontent.com/68255140/212782720-d4149c05-d6db-4c41-b7f3-d53d54086b6c.png)
+
+  IT WORKED again!
+  
+  ![image](https://user-images.githubusercontent.com/68255140/212782916-5c3ed305-6a41-4c04-854d-30e2f076fd81.png)
+
+14 - Forward the current port locally so that it can be interacted with locally
+  
+ ![image](https://user-images.githubusercontent.com/68255140/212783084-160b550c-42c6-4d1b-abea-82a37778338d.png)
+
+  ![image](https://user-images.githubusercontent.com/68255140/212783135-5d7021a4-4082-4d5a-9c14-64cd44ff1e98.png)
+
+  This [Resource](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_1_basics_n_setup/2_docker_sql) is the best thing I've ever used!
+  
+ 15 - Lastly, connecting via the terminal with command:  pgcli -h localhost -U root -d ny_taxi
+  
+ ![image](https://user-images.githubusercontent.com/68255140/212784211-c3cd4f8f-3fae-4476-9ae7-2e120cea601d.png)
+
+  
+  
 ## Remote Setup
 Steps:
 - 1 - Introduction to Docker  (see video provided in Resources)
@@ -136,6 +180,7 @@ Steps:
 ![image](https://user-images.githubusercontent.com/68255140/212756449-39a696db-ced5-4ce2-b06f-8efb4559816e.png)
 
 - 4 - [Installing Docker on Windows](https://docs.docker.com/desktop/install/windows-install/)
+
 
 
 Installing Python 3.9 in the docker container
